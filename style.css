@@ -1,0 +1,57 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    background-color: rgb(40, 38, 38);
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+}
+
+#myrps {
+    font-size: 5em;
+    color: white;
+}
+
+.mybuttons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#rock, #paper, #scissors {
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.results {
+    color: white;
+    text-align: center;
+}
+
+#result {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.YouvsComp{
+    text-align: center;
+    font-size: 35px;
+}
+
+.scores{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
